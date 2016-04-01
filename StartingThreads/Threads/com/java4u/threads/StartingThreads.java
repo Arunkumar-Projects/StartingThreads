@@ -10,7 +10,6 @@ class CounterRunnable implements Runnable {
 			try {
 				Thread.sleep(300);
 			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 
@@ -25,7 +24,6 @@ class CounterThread extends Thread {
 			try {
 				Thread.sleep(400);
 			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}

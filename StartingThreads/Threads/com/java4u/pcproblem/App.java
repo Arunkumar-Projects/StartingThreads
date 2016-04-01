@@ -51,7 +51,6 @@ public class App {
 				try {
 					processor.produce();
 				} catch (InterruptedException e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 			}
@@ -62,7 +61,6 @@ public class App {
 				try {
 					processor.consume();
 				} catch (InterruptedException e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 			}
